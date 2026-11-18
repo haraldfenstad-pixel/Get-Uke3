@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varer</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>Varer</h1>
+    <h2> Velkommen til vår nettbutikk! Her ser du ulike priser for klær
+    <p></p>Bruk vår kalkulator for å beregne totalprisen basert på antall varer du ønsker å kjøpe.</p>
+    </h2>
+    <ul>
+       
+        
+    </ul>
+    <section aria-labelledby="calculator-heading">
+        <h2 id="calculator-heading">Prisberegner</h2>
+        <p>Velg antall av hver vare for å beregne totalprisen.</p>
+        <form id="price-calculator">
+            <label for="genser-quantity">Genser (299 kr):</label>
+            <input id="genser-quantity" name="genser" type="number" min="0" step="1" value="0">
+            <br>
+            <label for="t-skjorte-quantity">T-skjorte (199 kr):</label>
+            <input id="t-skjorte-quantity" name="t-skjorte" type="number" min="0" step="1" value="0">
+            <br>
+            <label for="bukse-quantity">Bukse (499 kr):</label>
+            <input id="bukse-quantity" name="bukse" type="number" min="0" step="1" value="0">
+            <br>
+            <button type="submit">Beregn total</button>
+        </form>
+        <p id="total-price" aria-live="polite"></p>
+    </section>
+    <script src="Priser.js"></script>
+</body>
+</html>

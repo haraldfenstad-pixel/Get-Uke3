@@ -1,0 +1,11 @@
+body {
+  background-image: url("shop-clothing-clothes-shop-hanger-modern-shop-boutique_1150-8886.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);            /* Red */
+}
+
+li {
+  cursor: pointer;
+}
